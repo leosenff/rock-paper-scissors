@@ -18,17 +18,16 @@ function playRound(playerChoice, computerChoice) {
         return "You win! Scissor beats paper";
     } else if (playerChoice.toLowerCase() == "scissor" && computerChoice == "rock"){
         return "You lose! Rock beats scissor";
-
     } else 
-    return "It's a Tie";
+        return "It's a Tie";
 }
 
 let arr = ["rock", "paper", "scissor"];
 let computerChoice = getComputerChoice();
 
-
-
 let playerChoice = "paper";
 console.log(playerChoice);
-console.log(computerChoice);
+
+console.log("computer choice is", computerChoice);
+
 console.log(playRound(playerChoice, computerChoice));
