@@ -1,4 +1,3 @@
-//Escolhe  aleatoriamenteuma das opções definidas
 const btnRock = document.querySelector('.rock');
 const btnPaper = document.querySelector('.paper');
 const btnScissor = document.querySelector('.scissor');
